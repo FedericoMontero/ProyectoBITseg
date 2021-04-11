@@ -8,9 +8,10 @@
     tools:context=".MainActivity">
 
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="#UruguaySeVacuna"
+        android:text="Vaccine19UY"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"

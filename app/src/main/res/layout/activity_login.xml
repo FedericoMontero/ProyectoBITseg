@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,56 +13,91 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Contraseña"
+        android:hint="@string/Contraseña"
         android:inputType="textPassword"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="394dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
         android:ems="10"
-        android:hint="Documento"
+        android:hint="@string/Documento"
         android:inputType="number"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="292dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Iniciar Sesion"
+        android:text="@string/iniciosesion"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="202dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="51dp"
         android:layout_height="44dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/user"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="293dp" />
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="49dp"
         android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562"
         app:srcCompat="@drawable/mostrarcontrasena"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="396dp" />
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/botonconfirmar"
+        android:layout_width="217dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="456dp"
+        android:text="@string/confirmar"
+        android:textSize="18sp"
+        app:backgroundTint="@color/boton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/botonnoregistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Confirmar"
-        android:textSize="18sp"
-        app:backgroundTint="#1C3492"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="496dp" />
+        android:text="@string/registrarse"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonconfirmar"
+        app:layout_constraintVertical_bias="0.338"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
