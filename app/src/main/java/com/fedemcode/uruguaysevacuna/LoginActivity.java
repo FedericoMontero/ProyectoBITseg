@@ -68,6 +68,10 @@ public class LoginActivity extends AppCompatActivity {
             public void onResponse(Call<UserLoginResponse> call, Response<UserLoginResponse> response) {
                 if(response.isSuccessful()){
                     Toast.makeText(LoginActivity.this,"Ingreso Correcto",Toast.LENGTH_LONG).show();
+
+                    Intent i=new Intent(LoginActivity.this, HomeActivity.class);
+                    startActivity(i);
+
                 }else{
                     Toast.makeText(LoginActivity.this,"Ups!!! Algo salio mal",Toast.LENGTH_LONG).show();
                 }

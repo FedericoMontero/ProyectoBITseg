@@ -6,32 +6,26 @@
     android:layout_height="match_parent"
     android:background="#333333">
 
+
     <Button
         android:id="@+id/button2"
         android:layout_width="250dp"
         android:layout_height="49dp"
-        android:text="Tengo algunos sintomas"
+        android:text="@string/vacunatorios"
         app:backgroundTint="#1C3492"
         tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="362dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="251dp"
-        android:layout_height="47dp"
-        android:text="Agendar"
-        app:backgroundTint="#1C3492"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="435dp" />
+        tools:layout_editor_absoluteY="446dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="249dp"
         android:layout_height="48dp"
-        android:text="Informacion"
+        android:text="@string/informacion"
         app:backgroundTint="#1C3492"
         tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="517dp" />
+        tools:layout_editor_absoluteY="517dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -39,5 +33,6 @@
         android:layout_height="176dp"
         app:srcCompat="@drawable/vaccine"
         tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="57dp" />
+        tools:layout_editor_absoluteY="193dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

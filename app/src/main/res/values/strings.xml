@@ -18,4 +18,9 @@
     <string name="nombre">Nombre</string>
     <string name="apellido">Apellido</string>
 
+
+
+    <string name="vacunatorios">Ver vacunatorios</string>
+    <string name="informacion">Informacion</string>
+
 </resources>
