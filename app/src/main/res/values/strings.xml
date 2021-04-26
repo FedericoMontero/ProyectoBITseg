@@ -6,11 +6,16 @@
     <string name="registrarse">No estoy registrado</string>
     <string name="Documento">Documento</string>
     <string name="Contraseña">Contraseña</string>
-    <string name="fechanacimiento">Fecha de nacimiento</string>
+    <string name="date">Fecha de nacimiento</string>
     <string name="email">E-mail</string>
     <string name="telefono">Telefono</string>
     <string name="domicilio">Domicilio</string>
     <string name="registro">Registrarme</string>
-    <string name="nombrecomplet">Nombre completo</string>
+    <string name="nombreusuario">Usuario</string>
+
+
+
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
 
 </resources>
