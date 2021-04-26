@@ -15,11 +15,14 @@ public class ApiClient {
 
         OkHttpClient okHttpClient = new OkHttpClient.Builder().addInterceptor(httpLoggingInterceptor).build();
 
-        Retrofit retrofit = new Retrofit.Builder()
-                .addConverterFactory(GsonConverterFactory.create())
-                .baseUrl("https://localhost:44347/")
-                .build();
+        try {
 
+            Retrofit retrofit = new Retrofit.Builder()
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .baseUrl("https://localhost:44347/")
+                    .build();
+        }
+        catch (exeption)
         return retrofit;
     }
 
