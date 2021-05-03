@@ -9,5 +9,7 @@ public interface UserInterface {
     @POST("api/v1/Auth/Login/")
     Call<UserLoginResponse> userLogin(@Body UserLoginRequest userLoginRequest);
 
+    @POST("api/Users/CreateUser/")
+    Call<UserCreateResponse> userCreate(@Body UserCreateRequest userCreateRequest);
 
 }

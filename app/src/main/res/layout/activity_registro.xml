@@ -8,18 +8,17 @@
     tools:context=".Registro">
 
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="80dp"
         android:text="@string/registro"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintHorizontal_bias="0.439"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -28,40 +27,25 @@
         android:id="@+id/edName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="116dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="112dp"
         android:ems="10"
         android:hint="@string/nombre"
-        android:inputType="number"
+        android:inputType="text"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.472"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/edApellido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="388dp"
-        android:layout_marginEnd="120dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="108dp"
         android:ems="10"
         android:hint="@string/apellido"
-        android:inputType="textPassword"
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/edDate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="448dp"
-        android:layout_marginEnd="112dp"
-        android:ems="10"
-        android:hint="@string/date"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -71,21 +55,21 @@
         android:id="@+id/edUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="508dp"
+        android:layout_marginTop="388dp"
         android:layout_marginEnd="108dp"
         android:ems="10"
         android:hint="@string/nombreusuario"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editPassword"
+        android:id="@+id/edPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="572dp"
+        android:layout_marginTop="444dp"
         android:layout_marginEnd="108dp"
         android:ems="10"
         android:hint="@string/Contraseña"
@@ -96,18 +80,20 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnSignUp"
+        android:id="@+id/btnCrear"
         android:layout_width="217dp"
         android:layout_height="47dp"
-        android:layout_marginTop="640dp"
+        android:layout_marginTop="516dp"
         android:text="@string/confirmar"
         android:textSize="18sp"
         app:backgroundTint="@color/boton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

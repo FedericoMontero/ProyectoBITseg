@@ -69,7 +69,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(response.isSuccessful()){
                     Toast.makeText(LoginActivity.this,"Ingreso Correcto",Toast.LENGTH_LONG).show();
 
-                    Intent i=new Intent(LoginActivity.this, HomeActivity.class);
+                    Intent i=new Intent(LoginActivity.this, menuApp.class);
                     startActivity(i);
 
                 }else{

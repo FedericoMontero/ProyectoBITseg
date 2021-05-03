@@ -8,31 +8,23 @@
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnVerVacunatorios"
         android:layout_width="250dp"
         android:layout_height="49dp"
         android:text="@string/vacunatorios"
         app:backgroundTint="#1C3492"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="446dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="157dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnVerInfo"
         android:layout_width="249dp"
         android:layout_height="48dp"
         android:text="@string/informacion"
         app:backgroundTint="#1C3492"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="517dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="242dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="186dp"
-        android:layout_height="176dp"
-        app:srcCompat="@drawable/vaccine"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="193dp"
-        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
