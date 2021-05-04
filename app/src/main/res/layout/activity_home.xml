@@ -4,27 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#333333">
+    android:background="#333333"
+    tools:context=".Home">
 
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/tituloMenu"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnVerVacunatorios"
-        android:layout_width="250dp"
-        android:layout_height="49dp"
-        android:text="@string/vacunatorios"
-        app:backgroundTint="#1C3492"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="157dp" />
+        android:id="@+id/btnInformacion"
+        android:layout_width="217dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="340dp"
+        android:text="@string/btninformacion"
+        android:textSize="18sp"
+        app:backgroundTint="@color/boton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnVerInfo"
-        android:layout_width="249dp"
-        android:layout_height="48dp"
-        android:text="@string/informacion"
-        app:backgroundTint="#1C3492"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="242dp" />
+        android:id="@+id/btnVacunatorios"
+        android:layout_width="217dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="256dp"
+        android:text="@string/btnvacunatorios"
+        android:textSize="18sp"
+        app:backgroundTint="@color/boton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

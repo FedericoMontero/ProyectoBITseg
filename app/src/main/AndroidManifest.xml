@@ -17,10 +17,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UruguaySeVacuna">
-        <activity
-            android:name=".menuApp"
-            android:label="@string/title_activity_menu_app"
-            android:theme="@style/Theme.UruguaySeVacuna.NoActionBar"></activity>
+        <activity android:name=".activity_tabla_vacunatorios"></activity>
+        <activity android:name=".Home" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

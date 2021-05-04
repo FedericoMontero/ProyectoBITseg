@@ -18,8 +18,8 @@
     <string name="apellido">Apellido</string>
 
 
-    <string name="vacunatorios">Ver vacunatorios</string>
-    <string name="informacion">Informacion</string>
+    <string name="btnvacunatorios">Vacunatorios</string>
+    <string name="btninformacion">Informacion</string>
     <string name="title_activity_menu">menu</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
@@ -30,7 +30,8 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tituloUruguaySeVACUNA">#URUGUAYSEVACUNA</string>
+
+    <string name="tituloMenu">--MENU--</string>
 
 </resources>
