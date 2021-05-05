@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ApiClient {
 
 
-    private static String urlApi = "https://2818490bd266.ngrok.io/";
+    private static String urlApi = "https://0afb2339f77d.ngrok.io/";
 
     private static Retrofit getRetrofit(){
         HttpLoggingInterceptor httpLoggingInterceptor = new HttpLoggingInterceptor();
